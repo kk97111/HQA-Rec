@@ -6,7 +6,7 @@ This repository contains the official implementation of **HQA-Cite**, a three-st
 
 HQA-Cite operates in three sequential stages:
 
-1. **Hyperbolic Embedding** (`step1_hyperbolic_embedding.py`): Learns paper representations on the Lorentz manifold via a two-phase approach — Euclidean Collaborative Metric Learning (CML) followed by Riemannian BPR fine-tuning.
+1. **Hyperbolic Embedding** (`step1_hyperbolic_embedding.py`): Learns paper representations on the Lorentz manifold via a two-phase approach.
 
 2. **Residual Quantized VAE** (`step2_train_rqvae.py`): Compresses continuous Lorentz embeddings into compact discrete tokens using an 8-layer residual vector quantizer with contrastive learning.
 
