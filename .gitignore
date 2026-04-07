@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+output/
+data/raw/
+data/processed/
+*.npy
+*.pkl
+*.pth
+*.7z
+*.pdf
+.DS_Store
