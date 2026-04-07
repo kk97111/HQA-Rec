@@ -82,18 +82,6 @@ python step3_train_token_selfattn.py \
     --K 20 --epochs 200 --lr 1e-3
 ```
 
-### Run on all datasets
-
-```bash
-bash run_pipeline.sh --all --device cuda:0
-```
-
-### Resume from a specific step
-
-```bash
-# Skip Step 1 (use existing embeddings), run Steps 2-3
-bash run_pipeline.sh --dataset NLP --step 2
-```
 
 ## Key Hyperparameters
 
@@ -108,13 +96,4 @@ bash run_pipeline.sh --dataset NLP --step 2
 | `proj_dim` | 128 | Self-attention projection dim (Step 3) |
 | `alpha` | 0.0-0.5 | Hybrid scoring weight (Step 3 eval) |
 
-## Evaluation Metrics
 
-- **Recall@K** (K=10, 20)
-- **NDCG@K** (K=10, 20)
-- **MAP@K** (K=10, 20)
-- **MRR**
-
-## License
-
-This project is released for academic research purposes.
