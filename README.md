@@ -53,9 +53,7 @@ We use three sub-datasets extracted from [DBLP Citation Network v12](https://www
 | CV      | 88,374 | 1,062,298      | 81,409          | 6,778           |
 | NLP     | 22,327 | 208,905        | 20,423          | 1,622           |
 
-The processed datasets are included under `data/processed/`. To reproduce from raw DBLP data, see `data/process_dblp.py`.
-
-> **Note**: The ML and CV dataset files exceed 100MB. If using GitHub, configure [Git LFS](https://git-lfs.github.com/) for `.json` files under `data/processed/`.
+Download at https://drive.google.com/file/d/12Nma6m5u8TQSp7HmJ4iJdAVcB_bIBlYP/view?usp=sharing
 
 ## Quick Start
 
